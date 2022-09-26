@@ -16,13 +16,21 @@ En este algoritmo se utilizan hilos para tratar de reducir el tiempo de ejecuciÃ
 py brute_force mode passwd/msg hash/hmac hashType [threads] [info]
 
 Modes:
+
     0 --> msg - hmac
+    
     1 --> passwd - hash  (Not aviable)
+    
 hashType:
+
     'md5'
+    
     'sha1'
+    
     'sha256'
+    
 [threads]:
+
     x --> where x is number of threads
    
    
