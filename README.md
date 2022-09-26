@@ -56,10 +56,11 @@ para identificar al cliente.
 
 La idea de un formato para enviar toda esta información al servidor es unir
 todos los datos en una cadena en el siguiente orden:
-  1.1) Hash de la contraseña
-  1.2) Cuenta origen
-  1.3) “NONCE”
-  1.4) MAC
+  
+ 1.1) Hash de la contraseña
+ 1.2) Cuenta origen
+ 1.3) “NONCE”
+ 1.4) MAC
   
 Para distinguir los distintos elementos de información en la cadena se utiliza el
 tamaño fijo de los cuatro elementos, sabiendo que el hash de la contraseña debe ocupar 64
